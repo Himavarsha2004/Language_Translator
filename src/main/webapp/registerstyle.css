@@ -1,0 +1,91 @@
+body {
+	background-image:url("img1.jpeg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	font-family: Arial, sans-serif;
+  	background-color: #f2f2f2;
+  	margin: 0;
+  	padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+.form-register {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-register-with-email {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-white-background {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.form-log-in-with-existing {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
